@@ -2,13 +2,13 @@ from ray_tracing_functions import *
 
 obj0 = ('plane', 0.0, -1.1, 0.0, 0.0, 0.25)
 obj1 = ('sphere', 0.2, -1.02, -2.3, 0.08, 0.6)
-obj2 = ('sphere', 0.0, -0.3, -3.5, 0.8, 0.8)
+obj2 = ('sphere', 0.0, -0.5, -3.5, 0.8, 0.8)
 obj3 = ('sphere', 0.7, -0.8, -2.7, 0.3, 0.1)
-obj4 = ('cube', 0.8, -2.7, 0.3, 0.3)
+obj4 = ('cube', 0.2, -0.4, -2.7, 0.3, 0.3)
 scene = (obj0, obj1, obj2, obj3, obj4)
 
 spec_color = (0.1, 0.1, 0.1)
-light_pos = (-3.0, 15.0, 2.5)
+light_pos = (1, 1, 1)
 origin = (0.0, 0.0, 0.0)
 
 
